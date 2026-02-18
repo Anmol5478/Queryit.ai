@@ -1,0 +1,21 @@
+# Project Python requirements
+# Recommended Python version: 3.11
+
+langchain
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-chroma
+chromadb
+python-dotenv
+langchain_huggingface
+sentence-transformers
+
+# Optional (use if your code uses these)
+# tqdm
+# faiss-cpu  # or faiss-gpu if you have CUDA and need speed
+
+# Note:
+# - This file lists the packages the project imports. Pin exact versions
+#   (e.g. langchain==0.0.XXX) if you need reproducible installs.
+# - Use Python 3.11 to avoid compatibility issues with some deps (pydantic/chromadb).
